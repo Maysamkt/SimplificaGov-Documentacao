@@ -94,45 +94,7 @@ Fornecer acesso estruturado a dados legislativos, perfis de cidadãos, traduçõ
 
 ---
 
-## 📌 ENDPOINTS – PROJETOS DE LEI
 
-### **Listar PLs**
-```
-GET /leis
-GET /leis?limit=10&offset=0
-GET /leis?tipo=PL&numero=118&ano=2007
-```
-
-### **Consultar PL específico**
-```
-GET /leis/{id}
-```
-
-### **Traduzir um PL com IA**
-```
-POST /leis/{id}/traduzir
-```
-
----
-
-## 📌 ENDPOINTS – CIDADÃOS
-
-### **Listar cidadãos**
-```
-GET /cidadao
-```
-
-### **Cadastrar cidadão**
-```
-POST /cidadao
-```
-
-### **Definir preferência de mídia**
-```
-POST /cidadao/{id}/preferencia
-```
-
----
 
 ## 📌 Estrutura do Projeto Backend
 ```
