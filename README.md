@@ -85,7 +85,7 @@ O **n8n** é o orquestrador da solução.
 
 ---
 
-# 🗄️ 5. Backend / API Central (https://simplificagov.com/api)
+# 🗄️ 5. Backend / API Central 
 
 O Backend concentra lógica de negócios, integradores externos e armazenamento.
 
